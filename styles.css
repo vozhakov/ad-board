@@ -1,0 +1,81 @@
+.active-link{
+	background-color: #fcc;
+}
+header div.container, .sidebar, .main-content{
+	border: 1px solid #000;	
+}
+form[name="registration"] div, form[name="login"] div,
+form[name="add"] div{
+	padding-bottom: 5px;
+}
+#pass-err, #auth_err{
+	color: red;
+	font-size: 0.8em;
+}
+.welcome{
+color: #FF8000;	
+font-size: 1.2em;
+}
+#sel-cat, #sel-region{
+	width: 391px;
+}
+.center{
+	text-align: center;
+}
+.bottom-line1{
+	border-bottom: 1px solid #808080;
+}
+.bottom-line3{
+	border-bottom: 4px solid #808080;
+}
+.ads-photo{
+	max-width: 30%;
+	float: left;
+	padding-right: 5px;
+}
+
+/* Пагинация  */
+.disabled a:hover{
+	cursor: not-allowed;
+}
+#visib1, #visib2{
+	display: none;
+}
+.pagination li{
+	 list-style-type: none;
+	 display: inline;
+	 background-color: #ccc;
+	 margin-right: 2px;
+}
+.pagination li a{
+text-decoration: none;
+padding: 5px;	
+}
+.pagination li.active{
+background-color: #808080;
+ 	
+}
+.pagination {
+	display: inline-block;
+	padding-top: 10px;
+}
+button.btn-ads{
+	cursor: not-allowed;
+	background-color: grey;
+	}
+button.btn-ads:after {
+ content: " нельзя"; 
+}
+button.up-ads{
+	cursor: pointer;
+	background-color: green;
+}
+button.up-ads:after {
+ content: " можно"; 
+}
+
+
+
+
+
+
